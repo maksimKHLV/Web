@@ -1,0 +1,86 @@
+body
+{
+    width: 100%;
+    margin: 0%;
+}
+
+
+ul
+{
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+
+}
+
+a
+{
+    text-decoration: none;
+
+}
+
+.header-div
+{
+    width: 100%;
+    margin-left: 235.400px;
+    margin-right: 235.400px;
+    
+    align-items: center;
+    text-align: center;
+    display:flex;
+
+    
+    
+    
+    * 
+    {
+        display: flex;
+    }
+
+    
+
+    .left-header-div
+    {
+        .other-sites
+    {
+        a
+        {
+            margin-right: 25px;
+        }
+    }
+    }
+
+    .right-header-div
+    {
+        .settings-item
+        {
+            a
+            {
+                margin-left: 22px;
+            }
+        }
+
+        .right-header-div-support-items
+        {
+            font-size: 15px;
+            font-family: Helvetica, Arial, sans-serif;
+            color: black;
+
+            
+        }
+
+        .login
+        {
+            a
+            {
+                img
+                {
+                    margin-right: 7px;
+                }
+            }
+            
+        }
+
+        
+    }
+}
