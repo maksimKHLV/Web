@@ -1,5 +1,5 @@
 body {
-  width: 100%;
+  width: auto;
   margin: 0%;
 }
 
@@ -14,20 +14,24 @@ a {
 }
 
 .header-div {
+  margin-top: 10px;
   width: 100%;
   margin-left: 235.4px;
   margin-right: 235.4px;
-  align-items: center;
-  text-align: center;
   display: flex;
 }
 .header-div * {
   display: flex;
 }
 .header-div .left-header-div .other-sites a {
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #8d94ad;
   margin-right: 25px;
 }
 .header-div .right-header-div .settings-item a {
+  color: #8d94ad;
+  font-family: Arial, Helvetica, sans-serif;
   margin-left: 22px;
 }
 .header-div .right-header-div .right-header-div-support-items {
@@ -35,6 +39,29 @@ a {
   font-family: Helvetica, Arial, sans-serif;
   color: black;
 }
+.header-div .right-header-div .right-header-div-support-items .support {
+  margin-left: 128px;
+}
 .header-div .right-header-div .login a img {
   margin-right: 7px;
+}
+.header-div .right-header-div .favourites a img {
+  width: 22px;
+  height: 18px;
+  margin-right: 7px;
+}
+
+.nav-bar {
+  display: flex;
+  background-color: #CA1016;
+}
+.nav-bar * {
+  display: flex;
+}
+.nav-bar navbar-logo {
+  padding-top: 23px;
+  padding-right: 25px;
+  padding-bottom: 23px;
+  padding-left: 0px;
+  margin-right: 25px;
 }/*# sourceMappingURL=style.css.map */
